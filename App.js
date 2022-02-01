@@ -4,14 +4,12 @@ import { Provider  } from "react-redux";
 import store from './store/index';
 
 
-//console.log('app',store)
+
 const App = () => {
-   return (
-         
+     return (
            <Provider store= { store }>
                 <Routes />
            </Provider>
-           
            )
 }
 
